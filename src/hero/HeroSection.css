@@ -1,0 +1,62 @@
+.heroSection {
+  padding-bottom: 116px;
+  text-align: center;
+}
+
+.heroSection h1 {
+  color: #0a0a0a;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.heroSection p {
+  color: #404040;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.198px;
+  margin: 0;
+}
+
+.heroSectionMain {
+  margin-top: 56px;
+  position: relative;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .heroSection {
+    padding-bottom: 0;
+  }
+
+  .heroSection h1 {
+    font-size: 28px;
+    line-height: 32px; /* 100% */
+    margin-bottom: 16px;
+  }
+
+  .heroSection p {
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.176px;
+  }
+
+  .heroSectionBackgroundImg {
+    width: 100%;
+  }
+
+  .heroSectionMain {
+    margin-top: 40px;
+  }
+
+  .heroSectionContacts {
+    margin-top: 40px;
+  }
+}
